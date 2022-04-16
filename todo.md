@@ -21,13 +21,13 @@
 
 ## JavaScript
 - [x] onReady and all that
-- [ ] create a click listener for the '=' 
+- [x] create a click listener for the '=' 
     - [ ] calls our calculate function 
-        - [ ] creates an object num1, operator, num2
+        - [x] creates an object num1, operator, num2
         - [ ] sends to the server in a POST route
         - [ ] calls back the server function that gives us the display
     - [ ] calls the function to render the new display data to the DOM
--  [ ] create a click listener for the 'C' that:
+-  [x] create a click listener for the 'C' that:
     - [x] $('input').val('');
 - [ ] do a GET request 
     - [ ] render calculation history

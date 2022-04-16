@@ -6,4 +6,10 @@
 
 Your project description goes here. What problem did you solve? How did you solve it?
 
+In order to solve the problem of operator buttons, I tried this: 
+
+`function assignOperator(){
+    console.log($(this).text());
+}`
+
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
