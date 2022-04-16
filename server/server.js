@@ -29,7 +29,8 @@ app.post("/math", (req, res) => {
   res.sendStatus(200);
 });
 
-// uses a switch statement to evaluate the calculation object
+// use a switch statement to evaluate the calculation object
+    // create new object with answer and push it to the history array
 function doMath(calculationObject) {
   switch (calculationObject.operator) {
     case "+":
@@ -45,6 +46,13 @@ function doMath(calculationObject) {
       answer = Number(calculationObject.num1) / Number(calculationObject.num2);
       break;
   }
+  let newCalculation = {
+    num1: calculationObject.num1,
+    operator: calculationObject.operator,
+    num2: calculationObject.num2,
+    answer: answer,
+  };
+  history.push(newCalculation);
 }
 // declare port
 const PORT = 5000;

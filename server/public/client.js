@@ -49,14 +49,14 @@ function getMath() {
     method: "GET",
     url: "/math",
   }).then(function (response) {
-    console.log("I got a thing!");
-    console.log(response);
+    // console.log("I got a thing!");
+    // console.log(response);
     $("#history").empty();
     $("#result").empty();
-    $("#result").append(`${response[response.length - 1].result}`);
+    $("#result").append(`${response[response.length - 1].answer}`);
     for (let aCalculation of response) {
       $("#history").append(`
-        <li>${aCalculation.num1} ${aCalculation.operator} ${aCalculation.num2} = ${aCalculation.result}</li>
+        <li>${aCalculation.num1} ${aCalculation.operator} ${aCalculation.num2} = ${aCalculation.answer}</li>
         `);
     }
   });
