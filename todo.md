@@ -14,8 +14,8 @@
   **I'm thinking of styling this to look like a store's register** 
 
 - [x] light blue background 
-- [ ] grey fonts with red accents
-- [ ] monospaced font families inside inputs, lightweight
+- [x] grey fonts with red accents
+- [x] monospaced font families inside inputs
 - [x] curly retro chunky fonts for header 
 - [ ] overly stylized script for history 
 
@@ -24,14 +24,14 @@
 - [x] create a click listener for the '=' 
     - [ ] calls our calculate function 
         - [x] creates an object num1, operator, num2
-        - [ ] sends to the server in a POST route
-        - [ ] calls back the server function that gives us the display
-    - [ ] calls the function to render the new display data to the DOM
+        - [x] sends to the server in a POST route
+        - [x] calls back the server function that gives us the display
+    - [x] calls the function to render the new display data to the DOM
 -  [x] create a click listener for the 'C' that:
     - [x] $('input').val('');
-- [ ] do a GET request 
-    - [ ] render calculation history
-    - [ ] render latest answer to DISPLAY
+- [x] do a GET request 
+    - [x] render calculation history
+    - [x] render latest answer to DISPLAY
 
 # back end config
 
