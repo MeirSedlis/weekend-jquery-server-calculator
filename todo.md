@@ -11,12 +11,13 @@
     - [x] a 'display' for the result of the current operation
     - [x] a history of previous calculations
 ## CSS
-  **I'm thinking of styling this to look like a store's register** 
-
+ *virtual printing calculator!*
+- [ ] make the history append vertically so it looks like it's printing
 - [x] light blue background 
 - [x] grey fonts with red accents
 - [x] monospaced font families inside inputs
-- [x] curly retro chunky fonts for header 
+- [x] curly retro chunky font for header 
+    - [ ] custom?
 - [ ] overly stylized script for history 
 
 ## JavaScript
@@ -37,10 +38,10 @@
 
 - [x] build the server
 - [x] we need to store a history 
-    - [ ] an array including the data that was sent and the answer
+    - [x] an array including the data that was sent and the answer
 - [ ] inside the POST ROUTE:
-    - [ ] receive calculation object in req.body
-    - [ ] do the math
-    - [ ] put it all into a result object
-    - [ ] push new object into a history array
-    - [ ] then send back OK (200)
+    - [x] receive calculation object in req.body
+    - [x] do the math
+    - [x] put it all into a result object
+    - [x] push new object into a history array
+    - [x] then send back OK (200)

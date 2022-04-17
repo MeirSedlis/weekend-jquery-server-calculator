@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js"></script>
     <script src="client.js"></script>
-    <title>Calculator</title>
+    <title>VPC</title>
 </head>
 <body>
-    <h1>Meir's Fantastic Calculator</h1>
+    <ul id="history"></ul>
+ 
+    <div id="title">
+    <h1>Virtual Printing Calculator</h1>
+    <nav>
+      <p>
+            <a href="https://github.com/MeirSedlis/weekend-jquery-server-calculator/blob/main/README.md">About</a>  🍋  
+            <a href="mailto:meirsedlis@gmail.com?subject=Virtual%Printing%Calculator">Contact</a></li>
+      </p>
+    </div>
         <input type="number" id="num1">
         <button class="operator">+</button>
         <button class="operator">-</button>
@@ -19,8 +28,10 @@
         <input type="number" id="num2">
         <button id="submitButton">=</button>
         <button id="clearButton">C</button>
-    <h2 id="result"></h2>
-    <h3>History</h3>
-    <ul id="history"></ul>
+    
+        <h2 class="glow"id="result">0</h2>
+        
+</nav>
 </body>
+<footer>Meir David Sedlis 2022 All Rights Reserved</footer>
 </html>

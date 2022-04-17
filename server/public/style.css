@@ -1,35 +1,112 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
 
-h1{
-    font-family: 'Brush Script MT', cursive;
-    font-size: 86px;
-    color: maroon;
-    margin-bottom: 0;
+@font-face {
+  font-family: "DS-DIGI";
+  src: url(DS-DIGI.TTF) format("truetype");
 }
 
-input{
-    width: 140px;
-    height: 100px;
-    font-size: 54px;
-    font-family: 'Courier New', Courier, monospace;
-    color: gray;
-    text-align: center;
-    font-weight: bold;
-    margin: 8px;
+@font-face{
+    font-family: "MerchantCopy";
+    src: url(MerchantCopy-GOXq.ttf) format("truetype");
 }
 
-button{
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    color: dimgray;
-    padding: 10px;
-    margin: 8px;
+h1 {
+  font-family: "DS-DIGI";
+  font-size: 86px;
+  color: green;
+  margin: 0;
 }
 
-h2{
+input {
+  width: 140px;
+  height: 93px;
+  font-size: 54px;
+  font-family: 'DS-DIGI';
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  margin: 8px;
+}
+
+button {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin: 8px;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+.operator {
+  color: white;
+  background-color: dimgray;
+}
+
+#submitButton {
+  color: white;
+  background-color: dimgray;
+}
+
+#clearButton {
+  color: white;
+  background-color: crimson;
+}
+
+#history{
+    background-color: white;
+    min-width:200px;
+    max-width: 200px;
+    min-height: 10px;
+    font-family: 'MerchantCopy';
     font-size: 36px;
+}
+
+#result{
+    display: inline-block;
+    background-color: black;
+    min-width: 200px;
+    height: 93px;
+    margin: 8px 0 0 0;
+    text-align: center;
+    padding-top: 14px;
+    }
+
+.glow {
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+    font-family: 'DS-DIGI';
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px limegreen, 0 0 40px limegreen, 0 0 50px limegreen, 0 0 60px limegreen, 0 0 70px limegreen, 0 0 80px limegreen;
+    }
+  }
+
+footer{
+    font-family: 'MerchantCopy';
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav{
+    font-family: 'MerchantCopy';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+font-size: 18px;
 }
