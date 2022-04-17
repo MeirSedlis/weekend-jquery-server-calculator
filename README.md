@@ -38,4 +38,9 @@ For this, I downloaded two free fonts and read tutorials on glow animations on S
 - Javascript
 - jQuery
 - Express
-- Ajax
+
+## Acknowledgement
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Special thanks to the members of the Dahl cohort for support and coworking throughout the project.
+
+## Support
+If you have suggestions or issues, please email me at [meirsedlis@gmail.com](mailto:meirsedlis@gmail.com?subject=Virtual%Printing%Calculator)
